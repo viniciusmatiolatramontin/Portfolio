@@ -5,9 +5,9 @@
     grid-row: 1;
 }
 
-.game-icon {
-  margin-top: 1px;
-  margin-right: 8px;
+.card-content {
+  white-space: nowrap;
+  overflow: auto;
 }
 
 .project-list {
