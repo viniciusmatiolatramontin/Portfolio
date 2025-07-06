@@ -1,0 +1,23 @@
+@media(min-width: 800px) {
+    .url {
+        font-size: 32px;
+    }   
+}
+
+@media(max-width: 800px) {
+    .url {
+        font-size: 26px;
+    }   
+}
+
+.url {
+    color: inherit;
+}
+
+
+.social-button {
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+}

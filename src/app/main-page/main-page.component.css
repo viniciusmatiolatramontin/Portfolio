@@ -21,3 +21,29 @@
         overflow: auto;
     }
 }
+
+h1 {
+    grid-row: 1;
+    font-size: 46px;
+}
+
+.pfp {
+    background-image: url('C:/Users/vinic/OneDrive/Desktop/Projetos/Portfolio/public/1715887344391.jpg');
+    background-size: cover;
+    border-style: outset;
+    border-color: rgb(0, 206, 206);
+    width: 58px;
+    height: 58px;
+    grid-row: 1;
+    margin-top: 12px;
+    margin-right: 10px;
+}
+
+.header-in {
+    display: inline-grid;
+    align-items: center;
+}
+
+.header {
+    text-align: center;
+}
