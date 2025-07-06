@@ -10,6 +10,11 @@
   overflow: auto;
 }
 
+.game-icon {
+  margin-top: 1px;
+  margin-right: 8px;
+}
+
 .project-list {
   margin-top: 12px;
   display: inline-grid;
