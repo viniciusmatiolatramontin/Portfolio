@@ -1,0 +1,23 @@
+.header-in {
+    display: inline-grid;
+    align-items: center;
+}
+
+.header {
+    text-align: center;
+}
+
+.faq-h1 {
+    text-decoration: underline;
+}
+
+.expand-button { 
+    color: #d6d6d6;
+    background-color: transparent;
+    border: none;
+}
+
+h1 {
+    grid-row: 1;
+    font-size: 46px;
+}

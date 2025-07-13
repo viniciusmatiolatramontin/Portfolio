@@ -47,3 +47,7 @@ h1 {
 .header {
     text-align: center;
 }
+
+.faq-h1 {
+    text-decoration: underline;
+}
