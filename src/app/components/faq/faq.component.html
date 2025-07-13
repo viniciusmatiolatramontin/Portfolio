@@ -1,0 +1,21 @@
+<mat-card class="faq" appearance="outlined">
+  <mat-card-content>
+    <div class="header">
+      <div class="header-in">
+        <h1 class="faq-h1">FAQ - Perguntas frequentes</h1>
+      </div>
+    </div>
+    <mat-tree #tree [dataSource]="dataSource" [childrenAccessor]="childrenAccessor">
+      <mat-tree-node *matTreeNodeDef="let node" matTreeNodePadding>
+        <button class="expand-button" matIconButton disabled></button>
+        {{node.content}}
+      </mat-tree-node>
+      <mat-tree-node *matTreeNodeDef="let node;when: hasChild" matTreeNodePadding matTreeNodeToggle [cdkTreeNodeTypeaheadLabel]="node.content">
+        <button class="expand-button" matIconButton matTreeNodeToggle [attr.aria-label]="'Toggle ' + node.content">
+          <mat-icon class="mat-icon-rtl-mirror" [fontIcon]="tree.isExpanded(node) ? 'expand_more' : 'chevron_right'"></mat-icon>
+        </button>
+        {{node.content}}
+      </mat-tree-node>
+    </mat-tree>
+  </mat-card-content>
+</mat-card>
