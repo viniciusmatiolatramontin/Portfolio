@@ -17,7 +17,7 @@ export class FaqComponent {
       content: "Quando você decidiu que queria atuar profissionalmente na área de TI?",
       children: [
         {
-          content: "Na minha pré-adolescencia eu já tinha um pouco de noção de que eu queria trabalhar com TI, só não sabia bem em que área. Comecei tentando desenvolver games com a Unity" + 
+          content: "Na minha pré-adolescência eu já tinha um pouco de noção de que eu queria trabalhar com TI, só não sabia bem em que área. Comecei tentando desenvolver games com a Unity" + 
           " mas desisti de entrar nessa área por conta da falta de boas oportunidades no mercado de trabalho brasileiro. Após isso já no fim do ensino médio decidi tentar estudar" +
           " mais sobre desenvolvimento Front-End, e após algumas complicações iniciais decidi migrar para o Back-End, onde tive bem mais facilidade e também onde desenvolvi a maior parte dos" +
           " conhecimentos que tenho hoje em dia. Uns meses antes de começar o estágio na Senior Sistemas eu também decidi aprimorar mais os meus conhecimentos em Front-End (além dos" +
