@@ -19,3 +19,11 @@
   margin-top: 12px;
   display: inline-grid;
 }
+
+a {
+  color: rgb(0, 223, 223);
+}
+
+.github-button {
+  text-decoration: none;
+}
